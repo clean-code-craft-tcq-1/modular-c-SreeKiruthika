@@ -1,13 +1,16 @@
-#include <stdio.h>
 #include <assert.h>
+
+#ifndef _TEST_FUNC_H
+#include "test_func.h"
+#endif 
 
 #ifndef _COLOR_CODE_H
 #include "color_code.h"
 #endif
 
-#ifndef _TEST_FUNC_H
-#include "test_func.h"
-#endif 
+#ifndef _STDIO_H
+#include <stdio.h>
+#endif
 
 int main() 
 {
