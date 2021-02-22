@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #endif
 
+extern const int MAX_COLORPAIR_NAME_CHARS;
+
 int main() 
 {
     testNumberToPair(4, WHITE, BROWN);
