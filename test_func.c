@@ -2,7 +2,7 @@
 #include "test_func.h"
 #endif
 
-MAX_COLORPAIR_NAME_CHARS = 16;
+int MAX_COLORPAIR_NAME_CHARS = 16;
 
 /****************************************************************************************
 *Func desc : Test function which asserts conversion of pair number into corresponding colour pair 
