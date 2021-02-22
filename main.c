@@ -17,13 +17,14 @@ int main()
 	
 	/*Function to print manual for code coding*/
 	COLORPAIR manualprint;
-	for(int pairnumber = 1; pairnumber <= 25; pairnumber++)
+	for(int pairnum = 1; pairnum <= 25; pairnum++)
 	{
-		char *dummy;
+		char *dummy_buffer;
+		dummy_buffer = (char*)malloc( MAX_COLORPAIR_NAME_CHARS * sizeof(char));
 		printf("\n%d - ", pairnumber); 
                 manualprint = GetColorFromPairNumber(pairnumber); 
-		ColorPairToString (&manualprint , &dummy);
-		printf (dummy); /*To print the color name */
+		ColorPairToString (&manualprint , dummy_buffer);
+		printf (dummy_buffer); /*To print the color name */
 	}
     return 0;
 }
