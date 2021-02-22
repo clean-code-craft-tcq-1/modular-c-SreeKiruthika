@@ -15,7 +15,6 @@
 enum MAJORCOLOR {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MINORCOLOR {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-const int MAX_COLORPAIR_NAME_CHARS = 16;
 
 typedef struct {
     enum MAJORCOLOR majorColor;
