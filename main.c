@@ -23,7 +23,7 @@ int main()
 		char *dummy;
 		printf("%d - ", pairnumber); 
                 manualprint = GetColorFromPairNumber(pairnumber); 
-		ColorPairToString (*manualprint , dummy);
+		ColorPairToString (manualprint , dummy);
 		printf ("%s", dummy);
 	}
     return 0;
