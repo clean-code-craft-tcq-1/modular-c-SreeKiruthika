@@ -1,5 +1,5 @@
 #ifndef _TEST_FUNC_H
-#include <test_func.h>
+#include "test_func.h"
 #endif
 
 /****************************************************************************************

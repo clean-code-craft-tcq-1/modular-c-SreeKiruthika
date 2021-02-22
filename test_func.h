@@ -5,7 +5,7 @@
 /******************** INCLUDE SECTION ***********************/
 
 #ifndef _COLOR_CODE_H
-#include <color_code.h>
+#include "color_code.h"
 #endif
 
 /************************************************************/

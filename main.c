@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <assert.h>
-#include <dummy.h>
+
 #ifndef _COLOR_CODE_H
-#include <color_code.h>
+#include "color_code.h"
 #endif
 
 #ifndef _TEST_FUNC_H
-#include <test_func.h>
+#include "test_func.h"
 #endif 
 
 int main() 
