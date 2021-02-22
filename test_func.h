@@ -8,6 +8,10 @@
 #include "color_code.h"
 #endif
 
+#ifndef _ASSERT_H
+#include <assert.h>
+#endif
+
 /************************************************************/
 
 

@@ -1,5 +1,3 @@
-#include <assert.h>
-
 #ifndef _TEST_FUNC_H
 #include "test_func.h"
 #endif 
@@ -24,7 +22,7 @@ int main()
 	{
 		char *dummy;
 		printf("%d - ", pairnumber); 
-                manualprint = GetColorFromPairNumber(pairnumber) 
+        manualprint = GetColorFromPairNumber(pairnumber); 
 		ColorPairToString (manualprint , dummy);
 		printf ("%s", dummy);
 	}
