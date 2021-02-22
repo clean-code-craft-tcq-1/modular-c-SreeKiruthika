@@ -16,14 +16,14 @@ int main()
 
 	
 	/*Function to print manual for code coding*/
-	struct COLORPAIR manualprint;
+	COLORPAIR manualprint;
 	
 	for(int pairnumber = 1; pairnumber <= 25; pairnumber++)
 	{
 		char *dummy;
 		printf("%d - ", pairnumber); 
-        manualprint = GetColorFromPairNumber(pairnumber); 
-		ColorPairToString (manualprint , dummy);
+                manualprint = GetColorFromPairNumber(pairnumber); 
+		ColorPairToString (*manualprint , dummy);
 		printf ("%s", dummy);
 	}
     return 0;
