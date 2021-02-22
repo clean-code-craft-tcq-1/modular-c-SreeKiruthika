@@ -24,11 +24,11 @@ int main()
 	for(int pairnum = 1; pairnum <= 25; pairnum++)
 	{
 		char *dummy_buffer;
-		dummy_buffer = (char*)malloc( MAX_COLORPAIR_NAME_CHARS * sizeof(char));
-		printf("\n%d - ", pairnumber); 
-                manualprint = GetColorFromPairNumber(pairnumber); 
-		ColorPairToString (&manualprint , dummy_buffer);
-		printf (dummy_buffer); /*To print the color name */
+		dummy_buffer = (char*)malloc( 16 * sizeof(char));
+		printf("\n%d - ", pairnum); 
+                manualprint = GetColorFromPairNumber(pairnum); 
+		ColorPairToString (& manualprint , dummy_buffer);
+		printf ("%s", dummy_buffer); /*To print the color name */
 	}
     return 0;
 }
