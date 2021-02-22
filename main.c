@@ -20,17 +20,17 @@ int main()
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
-	
+    printf("The User manual which provides the pair number and its corresponding color details is as follows");	
 	/*Function to print manual for code coding*/
 	COLORPAIR manualprint;
 	for(int pairnum = 1; pairnum <= 25; pairnum++)
 	{
-		char *dummy_buffer;
-		dummy_buffer = (char*)malloc( 16 * sizeof(char));
+		char *colorname_buffer;
+		colorname_buffer = (char*)malloc( MAX_COLORPAIR_NAME_CHARS * sizeof(char));
 		printf("\n%d - ", pairnum); 
                 manualprint = GetColorFromPairNumber(pairnum); 
-		ColorPairToString (& manualprint , dummy_buffer);
-		printf ("%s", dummy_buffer); /*To print the color name */
+		ColorPairToString (& manualprint , colorname_buffer);
+		printf ("%s", colorname_buffer); /*To print the color name */
 	}
     return 0;
 }
