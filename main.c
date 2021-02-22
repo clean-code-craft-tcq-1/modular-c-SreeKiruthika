@@ -6,6 +6,10 @@
 #include <stdio.h>
 #endif
 
+#ifndef _STDLIB_H
+#include <stdlib.h>
+#endif
+
 int main() 
 {
     testNumberToPair(4, WHITE, BROWN);
