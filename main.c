@@ -15,15 +15,15 @@ int main()
     testPairToNumber(VIOLET, SLATE, 25);
 
 	
-	/*Function to print manual for code coding
+	/*Function to print manual for code coding*/
 	COLORPAIR manualprint;
 	for(int pairnumber = 1; pairnumber <= 25; pairnumber++)
 	{
 		char *dummy;
-		printf("%d - ", pairnumber); 
+		printf("\n%d - ", pairnumber); 
                 manualprint = GetColorFromPairNumber(pairnumber); 
 		ColorPairToString (&manualprint , dummy);
-		printf ("%s", dummy);
-	}*/
+		printf (dummy); /*To print the color name */
+	}
     return 0;
 }
