@@ -11,6 +11,7 @@
 
 
 /***************DEFINES section *****************************/
+#define MAXNUMOFCOLORPAIR 25
 
 enum MAJORCOLOR {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MINORCOLOR {BLUE, ORANGE, GREEN, BROWN, SLATE};

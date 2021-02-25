@@ -23,7 +23,7 @@ int main()
     printf("The User manual which provides the pair number and its corresponding color details is as follows");	
 	/*Function to print manual for code coding*/
 	COLORPAIR manualprint;
-	for(int pairnum = 1; pairnum <= 25; pairnum++)
+	for(int pairnum = 1; pairnum <= MAXNUMOFCOLORPAIR; pairnum++)
 	{
 		char *colorname_buffer;
 		colorname_buffer = (char*)malloc( MAX_COLORPAIR_NAME_CHARS * sizeof(char));
